@@ -1,0 +1,52 @@
+#colorChange{
+
+ 
+ margin-right: 2px;
+ height: 50px;
+ margin-top: -4px;
+ 
+}
+.style-switcher h4{
+    margin: 0 40px 2px;
+    color: var(--text-black-700);
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .style-switcher .colors{
+   display: flex;
+   justify-content: space-between;
+   width: 150px;
+   height: 20px;
+   margin-bottom: 4px;
+   margin-left: 2px;
+   margin-right: 2px;
+   
+  }
+  .style-switcher .colors span{
+     display: inline-block;
+     height:30px;
+     width:30px;
+     border-radius:50%;
+     border:1px,black;
+     margin-left: 2px;
+
+     
+  }
+  .style-switcher .color-1{
+      background:#ec1839;
+  }
+  .style-switcher .color-2{
+      background:white;
+  }
+  .style-switcher .color-3{
+      background:#37b182;
+  }
+  .style-switcher .color-4{
+      background:#1854b4;
+  }
+  .style-switcher .color-5{
+      background:black;
+  }
+  
+  
