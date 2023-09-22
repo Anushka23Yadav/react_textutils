@@ -11,7 +11,8 @@ import Navbar from './components/Navbar';
  BrowserRouter as Router,
  Routes,
  Route,
- Link
+ Link,
+ HashRouter
   } from "react-router-dom";
 function App() {
   let head = "Enter Your Text Here"
@@ -69,6 +70,7 @@ function App() {
   return (
 <>
 <Router>
+  <HashRouter basename="/">
 <Navbar  title="textutils" about="About TextUtils" customMode={customMode} mode={mode} toggleMode={toggleMode} modeChange={modeChange}/>
 
 <Alert alert={alert} />
@@ -81,6 +83,7 @@ function App() {
 <TextForm showAlert={showAlert} heading={head} mode={mode} ccolor={ccolor} />
 
 </div>
+</HashRouter>
 </Router>
 </>
   );
